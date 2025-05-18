@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>你好，世界！</title>
+    <link href="/2025/05/18/id/"/>
+    <url>/2025/05/18/id/</url>
+    
+    <content type="html"><![CDATA[<p>欢迎来到我的个人博客！我是 <strong>Your Name</strong>，一名热爱技术与分享的开发者。这个博客将记录我的学习过程、项目经验和一些生活点滴。</p><p>如果你对 Hexo 感兴趣，也可以参考以下内容快速开始你的博客之旅。</p><h2 id="快速开始-Hexo"><a href="#快速开始-Hexo" class="headerlink" title="快速开始 Hexo"></a>快速开始 Hexo</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><pre><code class="language-bash">$ hexo new &quot;我的新文章&quot;</code></pre>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/05/18/hello-world/"/>
     <url>/2025/05/18/hello-world/</url>
