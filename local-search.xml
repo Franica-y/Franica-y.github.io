@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>web-first</title>
+    <link href="/2025/05/20/web%E7%AC%94%E8%AE%B0/"/>
+    <url>/2025/05/20/web%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Web前端笔记"><a href="#Web前端笔记" class="headerlink" title="Web前端笔记"></a>Web前端笔记</h1><h2 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h2><p>1024GB &#x3D; 1TB</p><p>cs：（微信）《客户端》client</p><p>​需要安装</p><p>​偶尔更新</p><p>​不跨平台</p><p>bs：（网页版）《》browser</p><p>​可跨平台</p><p>s:server(服务器)</p><h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><ul><li>statcunter：可以统计数据的网页</li></ul><h2 id="HTML-标记语言"><a href="#HTML-标记语言" class="headerlink" title="HTML(标记语言)"></a>HTML(标记语言)</h2><p>1.超文本：内容更丰富</p><ol start="2"><li>&lt;标签&gt;标签体&lt;&#x2F;标签&gt;</li></ol><p>​         起始                   结束</p><p>3.标签&#x3D;&#x3D;元素</p><!DOCTYPE html><html>    代表是网页</html></!doctype>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>个人</tag>
+      
+      <tag>学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>操作系统-first</title>
     <link href="/2025/05/19/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     <url>/2025/05/19/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
