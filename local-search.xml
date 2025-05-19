@@ -4,13 +4,21 @@
   
   
   <entry>
-    <title></title>
+    <title>操作系统</title>
     <link href="/2025/05/19/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     <url>/2025/05/19/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
     
     <content type="html"><![CDATA[<h1 id="分时操作系统"><a href="#分时操作系统" class="headerlink" title="分时操作系统"></a>分时操作系统</h1><p>缺：不能优先处理紧急任务</p><h2 id="实时操作系统"><a href="#实时操作系统" class="headerlink" title="实时操作系统"></a>实时操作系统</h2><h3 id="硬实时"><a href="#硬实时" class="headerlink" title="硬实时"></a>硬实时</h3><p>必须在严格规定事件内完成处理</p><h3 id="软实时"><a href="#软实时" class="headerlink" title="软实时"></a>软实时</h3><p>能偶尔违反时间规定</p><h1 id="操作系统的运行机制"><a href="#操作系统的运行机制" class="headerlink" title="操作系统的运行机制"></a>操作系统的运行机制</h1><h2 id="程序如何运行"><a href="#程序如何运行" class="headerlink" title="程序如何运行"></a>程序如何运行</h2><p>c语言代码——&gt;(编译器)二进制——&gt;（放入cpu一条一条执行）</p><ul><li>小黑框的”指令“：交互式命令接口</li></ul><p>本章的指令：二进制机器指令</p><p>应用程序：普通程序员写的程序</p><p>内核程序：微软，苹果操作系统————&gt;组成了”内核“</p><p>内核是操作系统最核心的部分，最接近硬件的部分</p><p>CPU的两种状态</p><ul><li>内核态（管态）：处于此状态说明运行内核程序，<em><strong>可执行特权指令</strong></em></li><li>用户态（目态）：<em><strong>只能执行非特权指令</strong></em></li></ul><p>拓展：CPU有寄存器<em><strong>程序状态字寄存器（PWS）</strong></em>，1（内核态），0（用户态）</p><h2 id="内核态，用户态的切换"><a href="#内核态，用户态的切换" class="headerlink" title="内核态，用户态的切换"></a>内核态，用户态的切换</h2><p>内核-&gt;用户：执行一条特权指令，修改psw的标志位，让操作系统主动让出cpu使用权</p><p>用户-&gt;内核：由中断引发，硬件自动完成变态过程，强行夺回cpu使用权</p><h1 id="中断和异常"><a href="#中断和异常" class="headerlink" title="中断和异常"></a>中断和异常</h1><h2 id="中断的作用"><a href="#中断的作用" class="headerlink" title="中断的作用"></a>中断的作用</h2><p>中断是让操作系统内核夺回CPU使用权的唯一途径</p><h2 id="中断的类型"><a href="#中断的类型" class="headerlink" title="中断的类型"></a>中断的类型</h2><ul><li>内中断（异常）：与当前执行指令有关，中断信号来自CPU内部陷入（是应用程序故意的）；故障（有由错误条件引起的，可修复）；终止</li><li>外中断：与当前执行的指令无关，中断信号来源于CPU外部（时钟中断；I&#x2F;O中断请求）</li></ul><p>陷入指令（trap指令，方管指令）：意味着应用程序主动的将CPU控制权换给操作系统内核。”系统调用“就是通过陷入指令完成。</p><p>注：陷入指令是用户态执行的，执行陷入指令后立即引发一个内中断，使cpu进入核心态</p><h2 id="中断机制的基本原理"><a href="#中断机制的基本原理" class="headerlink" title="中断机制的基本原理"></a>中断机制的基本原理</h2><ul><li><p>检测中断信号：</p></li><li><ul><li>内中断：CPU在执行时会检查是否有异常发生</li></ul></li><li><ul><li>外中断：每个指令周期末尾，CPU都会检查是否有外中断信号需要处理</li></ul></li><li><p>找到相应的中断处理程序：通过”中断向量表“实现</p></li></ul><h1 id="系统调用"><a href="#系统调用" class="headerlink" title="系统调用"></a>系统调用</h1><p>概念:操作系统提供给应用程序（程序员）使用的接口，可以理解为一种可供应用程序调用的特殊函数，应用程序可以通过系统调用来请求获得操作系统内核的服务。</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>个人</tag>
+      
+      <tag>学习</tag>
+      
+    </tags>
     
   </entry>
   
